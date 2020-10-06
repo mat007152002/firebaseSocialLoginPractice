@@ -3,29 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163576BB3B042EC18D221F83 /* Pods_firebaseSocialLoginPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3EED38B5C3CA13EEB77ED9 /* Pods_firebaseSocialLoginPractice.framework */; };
 		DD607E90252413200073BC47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607E8F252413200073BC47 /* AppDelegate.swift */; };
 		DD607E92252413200073BC47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607E91252413200073BC47 /* SceneDelegate.swift */; };
 		DD607E94252413200073BC47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607E93252413200073BC47 /* ViewController.swift */; };
-		DD607E97252413200073BC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD607E95252413200073BC47 /* Main.storyboard */; };
 		DD607E9A252413200073BC47 /* firebaseSocialLoginPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD607E98252413200073BC47 /* firebaseSocialLoginPractice.xcdatamodeld */; };
 		DD607E9C252413220073BC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD607E9B252413220073BC47 /* Assets.xcassets */; };
 		DD607E9F252413220073BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD607E9D252413220073BC47 /* LaunchScreen.storyboard */; };
+		DD607EA7252415FF0073BC47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD607EA6252415FF0073BC47 /* GoogleService-Info.plist */; };
+		DD607EA9252427A10073BC47 /* MainTableBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607EA8252427A10073BC47 /* MainTableBarController.swift */; };
+		DD607EAB252429040073BC47 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607EAA252429040073BC47 /* HomeController.swift */; };
+		DD607EAD2524296B0073BC47 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607EAC2524296B0073BC47 /* UserProfileController.swift */; };
+		DD607EAF252435A00073BC47 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607EAE252435A00073BC47 /* Service.swift */; };
+		DD607EB1252452BB0073BC47 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD607EB0252452BB0073BC47 /* WelcomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3EED38B5C3CA13EEB77ED9 /* Pods_firebaseSocialLoginPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseSocialLoginPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADE9C1B9F6DBB9DDD4DB299 /* Pods-firebaseSocialLoginPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseSocialLoginPractice.release.xcconfig"; path = "Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice.release.xcconfig"; sourceTree = "<group>"; };
+		1F0828C845D719AC515D2B5A /* Pods-firebaseSocialLoginPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseSocialLoginPractice.debug.xcconfig"; path = "Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		DD607E8C252413200073BC47 /* firebaseSocialLoginPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseSocialLoginPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD607E8F252413200073BC47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD607E91252413200073BC47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD607E93252413200073BC47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD607E96252413200073BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD607E99252413200073BC47 /* firebaseSocialLoginPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firebaseSocialLoginPractice.xcdatamodel; sourceTree = "<group>"; };
 		DD607E9B252413220073BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD607E9E252413220073BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD607EA0252413220073BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD607EA6252415FF0073BC47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD607EA8252427A10073BC47 /* MainTableBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableBarController.swift; sourceTree = "<group>"; };
+		DD607EAA252429040073BC47 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		DD607EAC2524296B0073BC47 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		DD607EAE252435A00073BC47 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DD607EB0252452BB0073BC47 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163576BB3B042EC18D221F83 /* Pods_firebaseSocialLoginPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1651E2316B21EDD725CDB2C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F3EED38B5C3CA13EEB77ED9 /* Pods_firebaseSocialLoginPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3773CDB5CE34C059B697CB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F0828C845D719AC515D2B5A /* Pods-firebaseSocialLoginPractice.debug.xcconfig */,
+				1ADE9C1B9F6DBB9DDD4DB299 /* Pods-firebaseSocialLoginPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD607E83252413200073BC47 = {
 			isa = PBXGroup;
 			children = (
 				DD607E8E252413200073BC47 /* firebaseSocialLoginPractice */,
 				DD607E8D252413200073BC47 /* Products */,
+				3773CDB5CE34C059B697CB75 /* Pods */,
+				1651E2316B21EDD725CDB2C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +95,15 @@
 				DD607E8F252413200073BC47 /* AppDelegate.swift */,
 				DD607E91252413200073BC47 /* SceneDelegate.swift */,
 				DD607E93252413200073BC47 /* ViewController.swift */,
-				DD607E95252413200073BC47 /* Main.storyboard */,
+				DD607EA8252427A10073BC47 /* MainTableBarController.swift */,
+				DD607EAA252429040073BC47 /* HomeController.swift */,
+				DD607EAC2524296B0073BC47 /* UserProfileController.swift */,
+				DD607EB0252452BB0073BC47 /* WelcomeController.swift */,
+				DD607EAE252435A00073BC47 /* Service.swift */,
 				DD607E9B252413220073BC47 /* Assets.xcassets */,
 				DD607E9D252413220073BC47 /* LaunchScreen.storyboard */,
 				DD607EA0252413220073BC47 /* Info.plist */,
+				DD607EA6252415FF0073BC47 /* GoogleService-Info.plist */,
 				DD607E98252413200073BC47 /* firebaseSocialLoginPractice.xcdatamodeld */,
 			);
 			path = firebaseSocialLoginPractice;
@@ -77,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD607EA3252413220073BC47 /* Build configuration list for PBXNativeTarget "firebaseSocialLoginPractice" */;
 			buildPhases = (
+				6CBD56FB17582CB855061431 /* [CP] Check Pods Manifest.lock */,
 				DD607E88252413200073BC47 /* Sources */,
 				DD607E89252413200073BC47 /* Frameworks */,
 				DD607E8A252413200073BC47 /* Resources */,
+				4C78E9A49EAF9CD324E3D878 /* [CP] Embed Pods Frameworks */,
+				6D65ABF3204C1B5F6F7DD70F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +171,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD607E9F252413220073BC47 /* LaunchScreen.storyboard in Resources */,
+				DD607EA7252415FF0073BC47 /* GoogleService-Info.plist in Resources */,
 				DD607E9C252413220073BC47 /* Assets.xcassets in Resources */,
-				DD607E97252413200073BC47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C78E9A49EAF9CD324E3D878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBD56FB17582CB855061431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseSocialLoginPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D65ABF3204C1B5F6F7DD70F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseSocialLoginPractice/Pods-firebaseSocialLoginPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD607E88252413200073BC47 /* Sources */ = {
@@ -142,7 +243,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD607E9A252413200073BC47 /* firebaseSocialLoginPractice.xcdatamodeld in Sources */,
+				DD607EAF252435A00073BC47 /* Service.swift in Sources */,
+				DD607EB1252452BB0073BC47 /* WelcomeController.swift in Sources */,
 				DD607E94252413200073BC47 /* ViewController.swift in Sources */,
+				DD607EAB252429040073BC47 /* HomeController.swift in Sources */,
+				DD607EA9252427A10073BC47 /* MainTableBarController.swift in Sources */,
+				DD607EAD2524296B0073BC47 /* UserProfileController.swift in Sources */,
 				DD607E90252413200073BC47 /* AppDelegate.swift in Sources */,
 				DD607E92252413200073BC47 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +257,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD607E95252413200073BC47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD607E96252413200073BC47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD607E9D252413220073BC47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +384,7 @@
 		};
 		DD607EA4252413220073BC47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0828C845D719AC515D2B5A /* Pods-firebaseSocialLoginPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +403,7 @@
 		};
 		DD607EA5252413220073BC47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADE9C1B9F6DBB9DDD4DB299 /* Pods-firebaseSocialLoginPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

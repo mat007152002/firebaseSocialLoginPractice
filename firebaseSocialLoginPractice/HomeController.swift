@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeController.swift
 //  firebaseSocialLoginPractice
 //
 //  Created by 旌榮 凌 on 2020/9/30.
@@ -8,15 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeController : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        view.backgroundColor = .red
+        view.backgroundColor = Service.baseColor
+        navigationItem.title = "Home"
     }
-
-
+    
 }
-
